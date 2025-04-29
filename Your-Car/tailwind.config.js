@@ -9,8 +9,8 @@ export default {
       backgroundImage: {
         'big-head-car':"url('/Assets/Background.jpg')",
         'small-head-car':"url('/Assets/BackgroundSmall.png')",
-        'About-car':"url('Assets/AboutUs.png')"
-        
+        'About-car':"url('Assets/AboutUs.png')",
+        'BgRoad':"url(/Assets/Scratched_road.jpg)",
       },
       fontFamily: {
         lora: ['Lora', 'serif'],

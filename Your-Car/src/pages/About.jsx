@@ -37,10 +37,12 @@ export default function About() {
             </p>
           </div>
         </div>
-
-        {/* Right: Car Image Section */}
-        <div className="md:w-[400px] md:h-[700px] md:bg-About-car bg-no-repeat pl-10 pt-50">
-          {/* Empty div for background image */}
+         {/* Right: Car  and road Image Section  */}
+       
+       <div className="w-[500px] md:h-[800px] bg-BgRoad ">
+       
+        <div className="md:w-[400px] md:h-[700px] md:bg-About-car bg-no-repeat">
+        </div> 
         </div>
       </div>
     </section>

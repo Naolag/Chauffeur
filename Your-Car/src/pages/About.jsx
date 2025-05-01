@@ -1,12 +1,11 @@
-import Navbar from "./Navbar";
 
 export default function About() {
   return (
-    <section id="about" className="py-20">
-      <div className="md:flex md:items-center md:justify-between md:mx-10">
+    <section id="about" className="my-10">
+      <div className="md:flex bg-white   md:justify-between md:mx-10">
         {/* Left: Text Section */}
-        <div className="md:w-1/2 md:mr-10">
-          <div className="relative md:ml-6">
+        <div className="md:pr-[5%] ">
+          <div className="relative md:ml-6 ">
             <div className="md:min-w-max text-center md:text-left text-6xl md:text-8xl sm:text-7xl  font-bold font-lora text-red-900 mt-12 opacity-10 tracking-wider">
               ABOUT US
             </div>
@@ -18,7 +17,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="text-2xl sm:text-3xl md:text-xl mt-10 px-6">
+          <div className="text-2xl sm:text-3xl md:text-2xl md:font-custom-400 md:font-sans md:text-Custom-blueBlack mt-10 px-6">
             <p className="mb-8">
               YourCar is a luxury car dealership that offers a personalized and first-class experience to its clients.
               Our team of experienced professionals is dedicated to providing exceptional service and 
@@ -37,13 +36,13 @@ export default function About() {
             </p>
           </div>
         </div>
-         {/* Right: Car  and road Image Section  */}
+         
        
-       <div className="w-[500px] md:h-[800px] bg-BgRoad ">
-       
-        <div className="md:w-[400px] md:h-[700px] md:bg-About-car bg-no-repeat">
-        </div> 
+       <div className="w-full md:h-[700px] bg-no-repeat bg-center md:bg-BgRoad mr-[15%]">
+       <div className="md:w-[400px] md:h-[700px] md:bg-About-car bg-no-repeat ml-[20%]">
+       </div>
         </div>
+        
       </div>
     </section>
   );

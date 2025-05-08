@@ -16,6 +16,10 @@ export default {
         'handWithKey':"URL('/Assets/HandWithKey.png')",
         'hand':"URL('/Assets/Hand.png')",
         'carSales':"URL('/Assets/CarSales.png')",
+        'Mercedes_meybach':"URL('/Assets/Mercedes_meybach.png')",
+        'Mercedes_G-wagon':"URL('/Assets/Mercedes_G-wagon.png')",
+        'Mercedis_M-class':"URL('/Assets/Mercedis_M-class.png')",
+        'Gallery_car':"URL('/Assets/Rectangle.png')",
       },
       fontFamily: {
         lora: ['Lora', 'serif'],
@@ -25,21 +29,25 @@ export default {
         'custom-32': '32px', 
         'custom-34': '34px', 
         'custom-36': '36px', 
+        'custom-14':'14px',
       },
       fontWeight:{
         'custom-700':'700',
-
+        'custom-500':'500',
         'custom-400':'400'
       },
       textColor:{
         'custom-black':"rgba(18, 39, 61, 1)",
         'Custom-service':"rgba(235,235,235,1)",
         'Custom-blueBlack':"rgba(35,39,48,1)",
+        'Custom-gray':"rgba(223,223,223,1)",
+        'Custom-red':"rgba(116,25,6,1)"
         
       },
       backgroundColor:{
         'custom-black':"rgb(18, 39, 61)",
-        'Custom-gray':"rgba(223,223,223,1)"
+        'Custom-gray':"rgba(223,223,223,1)",
+        'Custom-red':"rgba(116,25,6,1)"
       },
       screens:{
         md:'820px',

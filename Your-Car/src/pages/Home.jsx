@@ -1,4 +1,5 @@
 import { FiArrowUpRight } from "react-icons/fi"
+import Navbar from "./Navbar"
 export default function Home(){
     return(
         <section id="home">

@@ -7,7 +7,7 @@ const Navlinks=()=>{
         <Link to="home" className="text-2xl lg:text-3xl font-lora" smooth={true} duration={800}>Home</Link>
         <Link to="about" className="text-2xl lg:text-3xl font-lora" smooth={true} duration={800} >About </Link>
         <Link to="service" className="text-2xl lg:text-3xl  font-lora" smooth={true} duration={800}>Service</Link>
-        <Link to="Cars" className="text-2xl lg:text-3xl font-lora" smooth={true} duration={800}>Cars</Link>
+        <Link to="cars" className="text-2xl lg:text-3xl font-lora" smooth={true} duration={800}>Cars</Link>
         <Link to="Contacts" className="text-2xl  lg:text-3xl font-lora" smooth={true} duration={800}>Contacts</Link>
       </>
     )

@@ -1,6 +1,6 @@
 export default function Service(){
     return(
-        <section id="service" className=" bg-Custom-gray">
+        <section id="service" className=" ">
             <div className="w-full h-auto bg-no-repeat bg-ServiceCar bg-center">
                 <div className="relative pt-20">
                     <div className="text-center text-7xl sm:text-8xl md:text-9xl font-lora font-custom-70 md:font-extrabold opacity-10 md:opacity-100  md:text-Custom-service">

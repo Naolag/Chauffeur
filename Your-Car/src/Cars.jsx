@@ -100,7 +100,7 @@ function Cars() {
         <div className="mt-20 w-full max-w-5xl mx-auto relative">
           <Slider {...settings}>
             {data.map((d, i) => (
-              <div key={i} className="px-4"> {/* This adds spacing between slides */}
+              <div key={i} className="px-4"> 
                 <div className="h-[500px] border border-gray-300 rounded-lg shadow-lg px-6 py-8 bg-white flex flex-col justify-between">
                   <img
                     src={d.image}

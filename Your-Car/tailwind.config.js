@@ -24,6 +24,7 @@ export default {
       fontFamily: {
         lora: ['Lora', 'serif'],
         sans:['Noto-Sons'],
+        lato:['Lato', 'sans-serif']
       },
       fontSize: {
         'custom-32': '32px', 
@@ -41,7 +42,9 @@ export default {
         'Custom-service':"rgba(235,235,235,1)",
         'Custom-blueBlack':"rgba(35,39,48,1)",
         'Custom-gray':"rgba(223,223,223,1)",
-        'Custom-red':"rgba(116,25,6,1)"
+        'Custom-red':"rgba(116,25,6,1)",
+        'custom-blacked':"rgba(39, 39, 39, 1)",
+        'custom-white':"rgba(151, 151, 151, 1)",
         
       },
       backgroundColor:{
@@ -50,7 +53,10 @@ export default {
         'Custom-red':"rgba(116,25,6,1)"
       },
       screens:{
-        md:'820px',
+        md1:'820px',
+        sm1:'470px',
+        sm2:'580px',
+        md1:'950px',
       },
     },
   },

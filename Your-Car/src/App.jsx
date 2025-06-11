@@ -6,6 +6,7 @@ import Service from "./pages/Service.jsx";
 import Cars from "./Cars.jsx";
 import CarsGallery from "./pages/CarsGallery.jsx";
 import Testimonial from "./pages/Testimonials.jsx";
+import Contact from "./pages/Contact.jsx";
 import {Link } from "react-scroll"
  export default function App(){
   return (
@@ -17,6 +18,7 @@ import {Link } from "react-scroll"
       <Cars/>
       <CarsGallery/>
       <Testimonial/>
+      <Contact/>
       </div>
   );
 }

@@ -52,11 +52,14 @@ export default {
         'Custom-gray':"rgba(223,223,223,1)",
         'Custom-red':"rgba(116,25,6,1)"
       },
+      borderColor:{
+        'Custom-red':"rgba(116,25,6,1)"
+      },
       screens:{
         md1:'820px',
         sm1:'470px',
         sm2:'580px',
-        md1:'950px',
+        md2:'950px',
       },
     },
   },

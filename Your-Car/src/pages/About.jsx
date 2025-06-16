@@ -1,7 +1,7 @@
 
 export default function About() {
   return (
-    <section id="about" className="my-10">
+    <section id="about" className="my-10 overflow-hidden">
       <div className="md:flex bg-white   md:justify-between md:mx-10">
         {/* Left: Text Section */}
         <div className="md:pr-[5%] ">
@@ -38,7 +38,7 @@ export default function About() {
         </div>
          
        
-       <div className="w-full md:h-[700px] bg-no-repeat bg-center md:bg-BgRoad mr-[15%]">
+       <div className=" hidden lg:flex w-full  md:h-[700px] bg-no-repeat bg-center md:bg-BgRoad mr-[15%]">
        <div className="md:w-[400px] md:h-[700px] md:bg-About-car bg-no-repeat ml-[20%]">
        </div>
         </div>

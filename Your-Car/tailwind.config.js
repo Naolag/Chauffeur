@@ -48,7 +48,7 @@ export default {
         
       },
       backgroundColor:{
-        'custom-black':"rgb(18, 39, 61)",
+        'custom-black':"rgba(18, 39, 61,1)",
         'Custom-gray':"rgba(223,223,223,1)",
         'Custom-red':"rgba(116,25,6,1)"
       },
@@ -60,6 +60,10 @@ export default {
         sm1:'470px',
         sm2:'580px',
         md2:'950px',
+        lg1:'1125px'
+      },
+      boxShadow: {
+        'top-subtle': '0px -3px 2px 0px rgba(0, 0, 0, 0.03)',
       },
     },
   },

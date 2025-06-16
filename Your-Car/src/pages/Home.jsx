@@ -5,7 +5,7 @@ export default function Home(){
         <section id="home">
 <div className="w-full h-full min-h-screen bg-small-head-car md:bg-big-head-car bg-cover bg-center">
   <div className="md:flex md:flex-col md:pt-[5%]   md:text-right">
-      <div className="text-white font-lora font-bold text-4xl sm:text-3xl md:text-5xl lg:text-6xl md:ml-auto\ px-[18px] pt-[30%] pb-[20%] md:px-[0px] md:pt-[0%] md:pb-[0%] md:mr-[5%] md:ml-[55%]">
+      <div className="text-white font-lora font-bold text-4xl sm:text-3xl md:text-5xl lg:text-5xl xl:text-6xl md:ml-auto\ px-[18px] pt-[30%] pb-[20%] md:px-[0px] md:pt-[5%] lg:pt-[10%] xl:pt-[8%] md:pb-[0%] md:mr-[5%] md:ml-[55%]">
           Find the perfect car for you at Yourcar.
       </div>
       <div >

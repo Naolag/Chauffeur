@@ -1,12 +1,13 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Star } from "lucide-react";
+import { Dot, Star } from "lucide-react";
 
 const data=[
     {
         test:"I recently bought a car through YourCar and I was blown away by their exceptional service. The staff were friendly and knowledgeable, and they helped me find the perfect car for my needs. I highly recommend YourCar to anyone looking for a luxury car buying experience.",
         star:5,
+        dots:true,
         name:'Annie Rudy',
         location:'Las Vegas',
         car:'/Assets/5084c9b84fe70dea3068cbba8e35daa1d7069b11.png',

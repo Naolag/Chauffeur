@@ -54,10 +54,8 @@ const cartSlice = createSlice({
     decreaseQuantity: (state, action) => {
       const carName = action.payload;
       const item = state.items.find(item => item.name === carName);
-      if (item && item.quantity > 1) {
+      if (item && item.quantity >= 1) {
         item.quantity -= 1;
-      } else {
-        state.items = state.items.filter(item => item.name !== carName);
       }
     },
   },

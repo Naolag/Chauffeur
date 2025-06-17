@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import { setActiveLink } from "react-scroll/modules/mixins/scroller";
 import Cart from "./Component/Cart";
+import { useSelector } from "react-redux";
 
 function Navbar() {
   const [isScrolled, setScrolled] = useState(false);

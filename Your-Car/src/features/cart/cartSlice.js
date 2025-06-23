@@ -41,7 +41,8 @@ const cartSlice = createSlice({
   reducers: {
     removeFromCart: (state, action) => {
       const carName = action.payload;
-      state.items = state.items.filter(item => item.name !== carName);
+      const item = state.items.find(item => item.name === carName);
+      if (item) item.quantity = 0;
     },
     increaseQuantity: (state, action) => {
       const carName = action.payload;

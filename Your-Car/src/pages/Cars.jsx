@@ -1,13 +1,15 @@
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowLeft, ChevronLeft, ChevronRight } from "lucide-react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useDispatch,useSelector } from "react-redux";
 import { increaseQuantity,decreaseQuantity } from "../features/cart/cartSlice";
+import { useRef,useEffect } from "react";
 
 
 // Custom Arrow components
 function NextArrow(props) {
+  
   const { onClick } = props;
   return (
     <div
@@ -18,6 +20,11 @@ function NextArrow(props) {
     </div>
   );
 }
+
+
+
+
+
 
 function PrevArrow(props) {
   const { onClick } = props;
@@ -34,6 +41,21 @@ function PrevArrow(props) {
 
 
 function Cars() {
+  const sliderRef=useRef(null)
+  useEffect(()=>{
+    const handlekeydown=(e)=>{
+      if(e.key==="ArrowRight"){
+        sliderRef.current?.slickNext();
+      } else if(e.key==="ArrowLeft"){
+        sliderRef.current?.slickPrev();
+      }
+    };
+     
+    window.addEventListener("keydown",handlekeydown);
+    return()=>{
+      window.removeEventListener("keydown",handlekeydown)
+    }
+  },[])
   const settings = {
     dots: true,
     infinite: true,
@@ -71,7 +93,7 @@ function Cars() {
 
         {/* Slider */}
         <div className="mt-20 w-full  max-w-5xl lg:max-w-6xl mx-auto relative">
-          <Slider {...settings}>
+          <Slider ref={sliderRef} {...settings}>
             {data.map((d, i) => (
               <div key={i} className="px-4"> 
                 <div className="h-[500px] border border-gray-300 rounded-lg shadow-lg px-6 py-8 bg-white flex flex-col justify-between">

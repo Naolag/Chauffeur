@@ -65,6 +65,7 @@ export default {
       boxShadow: {
         'top-subtle': '0px -3px 2px 0px rgba(0, 0, 0, 0.03)',
       },
+      scrollBehavior: ['responsive'],
     },
   },
   plugins: [],
